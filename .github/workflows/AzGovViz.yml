@@ -13,7 +13,7 @@ env:
   ScriptPrereqFile: prerequisites.ps1
   ScriptFile: AzGovVizParallel.ps1
   WebAppPublish: false #set to true and define the Web App details in the next 3 lines
-  WebAppSubscriptionId: <subscriptionId> e.g. 2674403a-4acd-40e6-a694-2ac7b968761e
+  WebAppSubscriptionId: 70113f36-9814-448e-938f-3acb66ca157b
   WebAppResourceGroup: <ResourceGroupName> e.g. MyWebAppResourceGroup
   WebAppName: <Name> e.g. MyAzGovVizWebApp
   #handle the GitHub 100MB file size limit; files in the folder 'OutputPath' hitting the limit will be removed https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#file-size-limits
