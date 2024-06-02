@@ -8,15 +8,15 @@ name: AzureGovernanceVisualizer_OIDC
 
 env:
   OutputPath: wiki
-  ManagementGroupId: <Management Group Id> #provide the Management Group Id, not the displayName
+  ManagementGroupId: f4d7fe42-db74-4c75-95b2-7ba22d928dce
   ScriptDir: pwsh #example: 'my folder\pwsh' or 'my folder/pwsh'
   ScriptPrereqFile: prerequisites.ps1
   ScriptFile: AzGovVizParallel.ps1
   #optional
   WebAppPublish: false #set to true and define the Web App details in the next 3 lines
-  WebAppSubscriptionId: <subscriptionId> e.g. 2674403a-4acd-40e6-a694-2ac7b968761e
-  WebAppResourceGroup: <ResourceGroupName> e.g. MyWebAppResourceGroup
-  WebAppName: <Name> e.g. MyAzGovVizWebApp
+  WebAppSubscriptionId: 70113f36-9814-448e-938f-3acb66ca157b
+  WebAppResourceGroup: MyWebAppResourceGroup
+  WebAppName: MyAzGovVizWebApp
   #handle the GitHub 100MB file size limit; files in the folder 'OutputPath' hitting the limit will be removed https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#file-size-limits
   #set to true AND uncomment line 79
   HandleGitHub100MBFileSizeLimit: false
