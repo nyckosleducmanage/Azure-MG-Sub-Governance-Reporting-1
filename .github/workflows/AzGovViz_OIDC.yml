@@ -44,9 +44,9 @@ jobs:
       - name: Connect Azure OIDC
         uses: azure/login@v1
         with:
-          client-id: ${{secrets.CLIENT_ID}} #create this secret
-          tenant-id: ${{secrets.TENANT_ID}} #create this secret
-          subscription-id: ${{secrets.SUBSCRIPTION_ID}} #create this secret
+          client-id: 642405d5-3446-459d-804f-285ad1fef0b4 #create this secret${{secrets.CLIENT_ID}}
+          tenant-id: f4d7fe42-db74-4c75-95b2-7ba22d928dce #${{secrets.TENANT_ID}}
+          subscription-id: 70113f36-9814-448e-938f-3acb66ca157b #create this secret${{secrets.SUBSCRIPTION_ID}}
           enable-AzPSSession: true
 
       - name: Check prerequisites
